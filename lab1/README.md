@@ -61,6 +61,7 @@ Copy and paste the table into your lab report to fill-in.
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     | Command | Description | Text example of how to use the command |
     | - | - | - | 
     | `ls` | | | 
@@ -91,6 +92,8 @@ Copy and paste the table into your lab report to fill-in.
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 | Command | Description | Example |
 | - | - | - | 
 | `ls` | Lists files and directories in the current directory | `ls /home/user/Documents` |
@@ -119,6 +122,9 @@ Copy and paste the table into your lab report to fill-in.
 | `>>` (e.g. `cat ./file1.txt >> ./file2.txt`) | Redirects output to a file, appending to existing content | `echo "World" >> output.txt` |
 | `!!` (e.g. `sudo !!`)| Repeats the previous command | `apt update` then `sudo !!` |
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

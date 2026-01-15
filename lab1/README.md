@@ -59,6 +59,8 @@ Make sure the share permissions allow the reader/grader to view it.
 Copy and paste the table into your lab report to fill-in.  
 **Hint:** for most commands and programs, you can append `--help` or `-h` to learn more about it; e.g. `ls --help`.
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     | Command | Description | Text example of how to use the command |
     | - | - | - | 
     | `ls` | | | 
@@ -86,6 +88,40 @@ Copy and paste the table into your lab report to fill-in.
     | `>` (e.g. `cat ./file1.txt > ./file2.txt`) | | | 
     | `>>` (e.g. `cat ./file1.txt >> ./file2.txt`) | | | 
     | `!!` (e.g. `sudo !!`)| | | 
+=======
+=======
+>>>>>>> Stashed changes
+| Command | Description | Example |
+| - | - | - | 
+| `ls` | Lists files and directories in the current directory | `ls /home/user/Documents` |
+| `ls -la` | Lists all files (including hidden) with detailed information in long format | `ls -la ~/workspace` |
+| `cd` | Changes the current directory to the specified path | `cd /opt/ros/humble` |
+| `mv` | Moves or renames files and directories | `mv old_name.txt new_name.txt` |
+| `rm` | Removes (deletes) files | `rm file.txt` |
+| `rm -rf` | Recursively and forcefully removes directories and their contents | `rm -rf build/` |
+| `cp` | Copies files from source to destination | `cp source.txt target.txt` |
+| `cp -r` | Recursively copies directories and all their contents | `cp -r src dest` |
+| `cat` | Displays the contents of a file | `cat ~/.bashrc` |
+| `touch` | Creates an empty file or updates the timestamp of an existing file | `touch new_script.py` |
+| `source` | Executes commands from a file in the current shell session | `source /opt/ros/humble/setup.bash` |
+| `export` | Sets an environment variable for the current shell and child processes | `export ROS_DOMAIN_ID=42` |
+| `grep` | Searches for patterns in text | `grep "error" log_file.txt` |
+| `echo` | Prints text or variable values to the terminal | `echo $ROS_DISTRO` |
+| `sudo` | Executes a command with administrator/root privileges | `sudo apt update` |
+| `chmod` | Changes file permissions (read, write, execute) | `chmod +x test.sh` |
+| `chown` | Changes the owner and/or group of a file or directory | `chown user:group file.txt` |
+| `*` (e.g. `rm ./*`) | Wildcard that matches any characters; represents all files/folders | `rm ./logs/*.log` |
+| `\|` (e.g. `cat ./file1.txt \| grep search`) | Pipe operator that sends output from one command as input to another | `ros2 node list \| grep turtlesim` |
+| `.` (e.g. `python ./script.py`) | Represents the current directory | `colcon build --packages-select ./my_package` |
+| `..` (e.g. `cd ..`) | Represents the parent directory (one level up) | `cd ../..` |
+| `~` (e.g. `source ~/.bashrc`)| Represents the current user's home directory | `cd ~/ros2_ws/src` |
+| `>` (e.g. `cat ./file1.txt > ./file2.txt`) | Redirects output to a file, overwriting existing content | `echo "Hello" > output.txt` |
+| `>>` (e.g. `cat ./file1.txt >> ./file2.txt`) | Redirects output to a file, appending to existing content | `echo "World" >> output.txt` |
+| `!!` (e.g. `sudo !!`)| Repeats the previous command | `apt update` then `sudo !!` |
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 
 
 ## FAQ
